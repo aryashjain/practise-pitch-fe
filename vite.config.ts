@@ -16,4 +16,7 @@ export default defineConfig({
       },
     },
   },
+    preview: {
+    allowedHosts: ['practise-pitch-fe-2.onrender.com'], // 👈 Add this line
+  },
 })
